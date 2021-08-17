@@ -1,0 +1,39 @@
+[
+    [
+        {"nexprs": 5}
+    ], [
+        {"data_name": "image_pair_mnist", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_rotation", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_flip", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_mnist_sound", "ncentroids": 10, "sample_level": false},
+        {"data_name": "kinetics_sounds", "shuffle_datapoints": false, "ncentroids": 32, "sample_level": true}
+    ], [
+        {"cluster_pairing": "combination"}
+    ], [
+        {"clustering_func_type": "sgd_kmeans"}
+    ], [
+        {"extract_each_layer": true}
+    ], [
+        {"num_shards": null}
+    ], [
+        {"batch_size": 100, "selection_size": 25}
+    ], [
+        {"out_dir": "exp1"}
+    ], [
+        {"start_indices_selection": "zero"}
+    ], [
+        {"measure": "efficient_batch_mi"},
+        {"measure": "efficient_constant"},
+        {"measure": "pca_ip"},
+        {"measure": "pca_cs"},
+        {"measure": "pca_l1"},
+        {"measure": "pca_l2"},
+        {"measure": "contrastive"}
+    ], [
+        {"use_gpu": true}
+    ], [
+        {"keep_unselected": true}
+    ], [
+        {"train_ratio": 0.5}
+    ]
+]

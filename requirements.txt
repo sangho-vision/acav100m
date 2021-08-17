@@ -1,0 +1,24 @@
+# python >= 3.8.5
+# PyTorch 1.6.0, torchvision 0.7.0, torchaudio 0.6.0
+tensorboard
+simplejson
+# fvcore
+fvcore==0.1.3.post20210317
+# PyAV
+# FFMpeg 4.3.1
+av
+wget
+rarfile
+scipy
+webdataset @ git+https://github.com/webdataset/webdataset.git@49f9524b38e5a161ddf57a70471127e404b8543d
+diffdist
+youtube-dl==2021.6.6
+./metadata_filtering/code/acav_metadata_filter-0.1.0-py3-none-any.whl
+fire
+inflection
+einops
+munch
+moviepy
+Pillow
+resampy
+soundfile

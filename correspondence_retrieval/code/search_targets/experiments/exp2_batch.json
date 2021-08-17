@@ -1,0 +1,45 @@
+[
+    [
+        {"nexprs": 5}
+    ], [
+        {"data_name": "kinetics_sounds", "shuffle_datapoints": false}
+    ], [
+        {"cluster_pairing": "combination"}
+    ], [
+        {"clustering_func_type": "sgd_kmeans"}
+    ], [
+        {"extract_each_layer": true}
+    ], [
+        {"ncentroids": 32}
+    ], [
+        {"num_shards": null}
+    ], [
+        {"batch_size": 100, "selection_size": 25}
+    ], [
+        {"out_dir": "exp2"}
+    ], [
+        {"start_indices_selection": "zero"}
+    ], [
+        {"sample_level": true}
+    ], [
+        {"use_gpu": true}
+    ], [
+        {"keep_unselected": true}
+    ], [
+        {"measure": "efficient_gpu_mi"},
+        {"measure": "efficient_batch_mi", "batch_size": 20, "selection_size": 5},
+        {"measure": "efficient_batch_mi", "batch_size": 20, "selection_size": 10},
+        {"measure": "efficient_batch_mi", "batch_size": 40, "selection_size": 5},
+        {"measure": "efficient_batch_mi", "batch_size": 40, "selection_size": 10},
+        {"measure": "efficient_batch_mi", "batch_size": 40, "selection_size": 20},
+        {"measure": "efficient_batch_mi", "batch_size": 80, "selection_size": 5},
+        {"measure": "efficient_batch_mi", "batch_size": 80, "selection_size": 10},
+        {"measure": "efficient_batch_mi", "batch_size": 80, "selection_size": 20},
+        {"measure": "efficient_batch_mi", "batch_size": 80, "selection_size": 40},
+        {"measure": "efficient_batch_mi", "batch_size": 160, "selection_size": 5},
+        {"measure": "efficient_batch_mi", "batch_size": 160, "selection_size": 10},
+        {"measure": "efficient_batch_mi", "batch_size": 160, "selection_size": 20},
+        {"measure": "efficient_batch_mi", "batch_size": 160, "selection_size": 40},
+        {"measure": "efficient_batch_mi", "batch_size": 160, "selection_size": 80}
+    ]
+]

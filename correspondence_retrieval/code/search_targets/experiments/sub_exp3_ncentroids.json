@@ -1,0 +1,31 @@
+[
+    [
+        {"nexprs": 5}
+    ], [
+        {"data_name": "kinetics_sounds", "shuffle_datapoints": false}
+    ], [
+        {"cluster_pairing": "combination"}
+    ], [
+        {"clustering_func_type": "sgd_kmeans"}
+    ], [
+        {"extract_each_layer": true}
+    ], [
+        {"ncentroids": 32}
+    ], [
+        {"num_shards": null}
+    ], [
+        {"batch_size": 100, "selection_size": 25}
+    ], [
+        {"out_dir": "exp3"}
+    ], [
+        {"start_indices_selection": "zero"}
+    ], [
+        {"sample_level": true}
+    ], [
+        {"measure": "efficient_batch_mi"}
+    ], [
+        {"use_gpu": true}
+    ], [
+        {"keep_unselected": true}
+    ]
+]

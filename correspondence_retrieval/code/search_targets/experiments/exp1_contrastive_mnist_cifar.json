@@ -1,0 +1,33 @@
+[
+    [
+        {"nexprs": 5}
+    ], [
+        {"data_name": "image_pair_mnist", "ncentroids": 10, "sample_level": false, "base_lr": 2e-4}
+    ], [
+        {"cluster_pairing": "combination"}
+    ], [
+        {"clustering_func_type": "sgd_kmeans"}
+    ], [
+        {"extract_each_layer": true}
+    ], [
+        {"num_shards": null}
+    ], [
+        {"batch_size": 100, "selection_size": 25}
+    ], [
+        {"out_dir": "exp1"}
+    ], [
+        {"start_indices_selection": "zero"}
+    ], [
+        {"measure": "contrastive"}
+    ], [
+        {"num_epochs": 20}
+    ], [
+        {"use_gpu": true}
+    ], [
+        {"keep_unselected": true}
+    ], [
+        {"train_ratio": 0.5}
+    ], [
+        {"seed": 0}
+    ]
+]

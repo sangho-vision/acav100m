@@ -1,0 +1,30 @@
+[
+    [
+        {"nexprs": 5}
+    ], [
+        {"data_name": "image_pair_mnist", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_rotation", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_flip", "ncentroids": 10, "sample_level": false},
+        {"data_name": "image_pair_mnist_sound", "ncentroids": 10, "sample_level": false}
+    ], [
+        {"cluster_pairing": "combination"}
+    ], [
+        {"clustering_func_type": "sgd_kmeans"}
+    ], [
+        {"extract_each_layer": true}
+    ], [
+        {"num_shards": null}
+    ], [
+        {"batch_size": 100, "selection_size": 25}
+    ], [
+        {"out_dir": "alg"}
+    ], [
+        {"start_indices_selection": "zero"}
+    ], [
+        {"measure": "efficient_batch_mi"}
+    ], [
+        {"use_gpu": true}
+    ], [
+        {"keep_unselected": true}
+    ]
+]
