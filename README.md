@@ -1,7 +1,7 @@
 # ACAV100M: Automatic Curation of Large-Scale Datasets for Audio-Visual Video Representation Learning
 
 
-https://user-images.githubusercontent.com/20439768/131408049-3bfe7a3f-a91d-4cbd-8cf4-ad2676376c52.mp4
+![logo](https://user-images.githubusercontent.com/20439768/131711601-ecb41f64-f4f4-4dd9-840d-abff303a8946.gif)
 
 
 This repository contains the code for our ICCV 2021 paper:
