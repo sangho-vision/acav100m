@@ -51,7 +51,6 @@ def prepare_ks_data():
     download_file_from_google_drive(file_id, str(zipfile_path))
     print(f"Successfully downloaded {zipfile_path}")
 
-    '''
     # Extract zipfile
     print("Extracting files...")
     zip_ref = ZipFile(zipfile_path, "r")
@@ -59,7 +58,6 @@ def prepare_ks_data():
     zip_ref.close()
     print("Extraction done!")
     zipfile_path.unlink()
-    '''
 
 
 if __name__ == "__main__":
