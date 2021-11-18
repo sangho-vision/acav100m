@@ -24,8 +24,8 @@ Sangho Lee\*, Jiwan Chung\*, Youngjae Yu, Gunhee Kim, Thomas Breuel, Gal Chechik
 On our official website (https://acav100m.github.io/), 
 we provide more information on the dataset including following features:
 
-- dataset downloads
-- data sample explorer
+- Dataset download links
+- Sample video clip explorer
 
 ## System Requirements
 
